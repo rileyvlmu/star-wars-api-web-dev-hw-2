@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Stjedise";
+  src: url("./STJEDISE.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.custom-font {
+  font-family: "Stjedise", sans-serif;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-image: url("./spacebg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("./swbg.jpg");
+  background-size: cover;
+  background-color: black;
+}
+h1 {
+  font-family: sans-serif;
+  margin-top: 0;
+  padding: 10px;
+  font-size: 40px;
+  background-color: yellow;
+  flex-direction: row;
+  background-image: url("./swbg.jpg");
+}
+h2 {
+  color: yellow;
+  display: grid;
+  background-image: url("./swbg.jpg");
+  background-color: black;
+}
+h3 {
+  color: yellow;
+  background-image: url("./swbg.jpg");
+  background-color: black;
+}
+.Info {
+  font-family: "Starjedi", sans-serif;
+  font-size: 24px;
+  color: yellow;
+  background-image: url("./swbg.jpg");
+  background-color: black;
+}
+footer {
+  background-color: yellow;
+  color: yellow;
+}
