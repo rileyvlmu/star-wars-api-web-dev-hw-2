@@ -53,3 +53,12 @@ footer {
   background-color: yellow;
   color: yellow;
 }
+.container {
+  display: flex;
+  flex-direction: column; /* or row, depending on your requirement */
+}
+
+.star-background {
+  background-image: url('path/to/star-image.png');
+  background-repeat: repeat;
+}

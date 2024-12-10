@@ -21,13 +21,21 @@ export default function App() {
   }, [name]);
 
   return (
-    <div className="App" style={{ backgroundImage: `url(${swbg})` }}>
+    <div
+      className="App"
+      style={{
+        backgroundImage: `url(${swbg})`,
+        backgroundRepeat: "repeat",
+        display: "flex",
+        flexDirection: "column"
+      }}
+    >
       <Title text="Star Wars Character Search" />
       <img style={{ width: "30vh", height: "30vh" }} src={swlogo} />
-      <body>
+      <div>
         <Entry action={setName} />
         <Info name={name} data={data} />
-      </body>
+      </div>
     </div>
   );
 }
